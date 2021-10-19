@@ -11,17 +11,14 @@ public class ConstructionTester
         // gets the tax rate
         System.out.println("Enter the sales tax rate: ");
         double tax = in.nextDouble();
-        System.out.println(tax);
 
         //gets the number of boards
         System.out.println("How many boards do you need?? ");
         int numBoard = in.nextInt();
-        System.out.println(numBoard);
 
         //gets the number of windows
         System.out.println("How many windows do you need? ");
         int numWindow = in.nextInt();
-        System.out.println(numWindow);
 
         //creates a constuction object
         Construction construct = new Construction(8, 11, tax);
