@@ -6,6 +6,8 @@ public class ConstructionTester
     public static void main(String[] args)
     {
         // Start here!
+
+        //add scanner type object
         Scanner in = new Scanner(System.in);
 
         // gets the tax rate
